@@ -12,5 +12,6 @@ export default defineConfig({
   },
 
   integrations: [sitemap()],
-  site: "https://grunge.pages.dev"
+  site: "https://dangerapps.github.io",
+  base: "/dangerapps"
 });
