@@ -1,0 +1,18 @@
+---
+// components
+import Container from "../../elements/Container.astro"
+import Text from "../../elements/Text.astro"
+import Heading from "../../elements/Heading.astro"
+import Link from "../../elements/Link.astro"
+---
+
+<Container variant={"xl"} class="flex flex-col md:flex-row gap-8 items-center md:items-start">
+    <div class="w-[60%] md:w-[30%] shrink-0">
+        <img src="/logo.svg" alt="Danger Apps Logo" class="w-full" />
+    </div>
+    <div class="flex-1 flex flex-col items-center md:items-start gap-6 text-center md:text-left">
+        <Heading tagName="h1" tagSize="h1">Danger Apps</Heading>
+        <Text variant={'xl'} class="text-base-900">We build fun, addictive mobile apps for iOS and Android. Check out our latest projects below.</Text>
+        <Link variant={'button'} href="/projects">View our Apps</Link>
+    </div>
+</Container>

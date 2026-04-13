@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-5 -5 210 210">
+  <!-- Capital D - square proportions, more rounded corners -->
+  <path d="M25,18 Q25,2 41,2 L90,2 C155,2 192,45 192,100 C192,155 155,198 90,198 L41,198 Q25,198 25,182 Z" fill="#FF5F00" stroke="#EEFF00" stroke-width="9"/>
+
+  <g transform="translate(104,92) scale(0.9) translate(-104,-92)">
+    <!-- Caution triangle - equilateral, neon yellow, more rounded corners -->
+    <path d="M104,38 L51,130 Q47,137 54,137 L154,137 Q161,137 157,130 Z" fill="#EEFF00" stroke="#EEFF00" stroke-width="14" stroke-linejoin="round"/>
+
+    <!-- Exclamation point line - off-black, same width as dot (14px diameter) -->
+    <rect x="97" y="58" width="14" height="45" rx="7" fill="#FF5F00"/>
+
+    <!-- Exclamation point dot -->
+    <circle cx="104" cy="120" r="7" fill="#FF5F00"/>
+  </g>
+</svg>

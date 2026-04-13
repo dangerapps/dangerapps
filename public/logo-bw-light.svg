@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-5 -5 210 210">
+  <!-- Capital D - white with black border -->
+  <path d="M25,18 Q25,2 41,2 L90,2 C155,2 192,45 192,100 C192,155 155,198 90,198 L41,198 Q25,198 25,182 Z" fill="#FFFFFF" stroke="#1A1A1A" stroke-width="9"/>
+
+  <g transform="translate(104,92) scale(0.9) translate(-104,-92)">
+    <!-- Caution triangle - black -->
+    <path d="M104,38 L51,130 Q47,137 54,137 L154,137 Q161,137 157,130 Z" fill="#1A1A1A" stroke="#1A1A1A" stroke-width="14" stroke-linejoin="round"/>
+
+    <!-- Exclamation point line -->
+    <rect x="97" y="58" width="14" height="45" rx="7" fill="#FFFFFF"/>
+
+    <!-- Exclamation point dot -->
+    <circle cx="104" cy="120" r="7" fill="#FFFFFF"/>
+  </g>
+</svg>
