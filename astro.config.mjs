@@ -12,6 +12,6 @@ export default defineConfig({
   },
 
   integrations: [sitemap()],
-  site: "https://dangerapps.github.io",
-  base: "/dangerapps"
+  site: "https://www.dangerapps.com",
+  base: "/"
 });
