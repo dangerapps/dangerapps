@@ -1,12 +1,12 @@
 ---
 ---
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
   <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-  <title>Privacy Policy</title>
+  <title>NameBaby Privacy Policy</title>
   <style>
         body {
             font-family: "Helvetica", Arial, sans-serif;
@@ -16,65 +16,202 @@
             margin: 0 auto;
             padding: 20px;
         }
-        h2, h3 {
+        h2, h3, h4 {
             color: #333;
         }
         a, a:hover {
             color: #00b5cc;
         }
+        /* DRAFT ONLY: review markers, removed before publishing */
+        .confirm {
+            background: #fff3b0;
+            color: #5c4400;
+            padding: 0 4px;
+            border-radius: 3px;
+            font-size: 0.9em;
+        }
     </style>
 </head>
 <body class="privacy-terms">
   <h2>Privacy Policy</h2>
+  <p><em>Last updated: November 23, 2026</em></p>
 
-  <p>Danger Apps Inc. built the NameBaby app as an Ad Supported app. This SERVICE is provided by Danger Apps Inc. at no cost and is intended for use as is.</p>
+  <p>Danger Apps Inc. built the NameBaby app for iOS and Android. NameBaby is free to use and supported by ads,
+      with an optional Premium subscription that removes ads and limits. This SERVICE is provided by
+      Danger Apps Inc. and is intended for use as is.</p>
   <p>This page is used to inform visitors regarding our policies with the collection, use, and
       disclosure of Personal Information if anyone decided to use our Service.</p>
   <p>If you choose to use our Service, then you agree to the collection and use of information in relation
       to this policy. The Personal Information that we collect is used for providing and improving the
       Service. We will not use or share your information with anyone except as described
       in this Privacy Policy.</p>
-  <p>The terms used in this Privacy Policy have the same meanings as in our Terms and Conditions, which is accessible
-      at NameBaby unless otherwise defined in this Privacy Policy.</p>
+  <p>The terms used in this Privacy Policy have the same meanings as in our
+      <a href="/name_baby/terms/">Terms and Conditions</a> unless otherwise defined in this Privacy Policy.</p>
 
   <h3>Information Collection and Use</h3>
-  <p>For a better experience, while using our Service, we may require you to provide us with certain
-      personally identifiable information. The information that we request will be retained by us and used as described in this privacy policy.</p>
-  <p>The app does use third party services that may collect information used to identify you.</p>
-  <div>
-    <p>Link to privacy policies of third party service providers used by the app</p>
-    <ul>
-      <li><a href="https://cloud.google.com/terms/" target="_blank">Google Firebase</a></li>
-      <li><a href="https://marketingplatform.google.com/about/analytics/terms/us/" target="_blank">Google Analytics</a></li>
-    </ul>
-  </div>
+  <p>You can use NameBaby without creating an account. What we handle depends on which features you use.</p>
+
+  <h4>Information stored on your device</h4>
+  <p>Unless you sign in, the following stays on your device:</p>
+  <ul>
+    <li>The names you like, dislike and add to your short list, your search history and your chat history.</li>
+    <li>Your settings: the baby's last name, middle names, how many babies you are expecting, your first name
+        (this defaults to “Me”), your filters and your theme.</li>
+    <li>An optional “baby's ethnicity” setting. It is used only to choose which preview photos to show you,
+        and it defaults to “Prefer not to say”.</li>
+  </ul>
+
+  <h4>Account (optional)</h4>
+  <p>You can sign in with your email address. Sign-in is passwordless: we email you a sign-in link. If you sign in,
+      we collect your email address and assign you a user ID. Accounts are provided through Google's
+      Firebase Authentication. The sign-in email is sent through our email provider, Resend, and we briefly keep
+      a hashed (scrambled) form of your email address to limit how many sign-in emails can be requested.</p>
+
+  <h4>Cloud sync</h4>
+  <p>Once you are signed in, the following is saved to our cloud database (Google Cloud Firestore) under your
+      user ID:</p>
+  <ul>
+    <li>The settings listed above, including the baby's last name, your first name and the “baby's ethnicity” setting.</li>
+    <li>Your baby details.</li>
+    <li>Your lists of liked, disliked and short-listed names.</li>
+    <li>Your email address.</li>
+    <li>Whether you have Premium.</li>
+  </ul>
+  <p class="confirm">[CONFIRM: search history and chat history are not in the synced list you gave me, so this
+      policy does not say they are synced. Check that is right.]</p>
+
+  <h4>Partner sharing (optional)</h4>
+  <p>Two NameBaby users can link their accounts. When you do, a shared record holds each person's first name,
+      email address and their liked, disliked and short-listed names. Your partner can see your first name,
+      your email address and the names you have liked and short-listed. You can see the same about them.</p>
+
+  <h4>AI chat</h4>
+  <p>When you ask our Name bot for suggestions, the text you type, together with your last three chat exchanges,
+      is sent to our server at www.namebabyapp.com. Our server passes it to an AI service provider to generate
+      the suggestions. The app does not attach your account ID to these requests. Please do not include
+      information in a chat that you would not want to share.</p>
+  <p class="confirm">[CONFIRM: which AI provider the server uses (the app code suggests Google Gemini), whether
+      our server or the provider logs or stores chat text and for how long, and whether the provider may use it
+      to improve its own models. This section should name the provider and state the retention once known.]</p>
+
+  <h4>Name details and previews</h4>
+  <p>The app requests name details and preview images from our server at www.namebabyapp.com. A request for a
+      preview image tells our server which name you are viewing and your “baby's ethnicity” setting. Some name
+      photos are fetched from Wikipedia's public API, which is operated by the Wikimedia Foundation. As with any
+      internet request, the server that receives a request can see your device's IP address.</p>
+  <p class="confirm">[CONFIRM: what the www.namebabyapp.com server logs for these requests (for example IP
+      address, name viewed, ethnicity setting) and how long logs are kept.]</p>
+
+  <h4>Advertising</h4>
+  <p>If you do not have Premium, the app shows ads provided by Google AdMob. These include banner, native,
+      full-screen and rewarded video ads. You can choose to watch a rewarded video ad to unlock extra AI chats
+      and name previews. To show and measure ads, Google's advertising software in the app collects device and
+      advertising identifiers, your IP address (from which your approximate location can be inferred), your
+      interactions with ads, and diagnostic information, and Google uses this information for advertising.
+      Premium subscribers are not shown ads. See “Advertising and Tracking Choices” below for how to
+      control this.</p>
+
+  <h4>Analytics</h4>
+  <p>We use Google Analytics for Firebase to understand how the app is used. It records app usage events such as:
+      a subscription screen being viewed (and from where), a purchase being started or completed, a free limit
+      being reached, a rewarded ad being offered or completed, a chat being sent, a name preview being opened,
+      and a partner invite being created or accepted. The text of your chats and the names you like are
+      <strong>not</strong> sent to analytics. Firebase also collects an app instance ID and general device
+      information.</p>
+  <p class="confirm">[CONFIRM: Google's documentation says the Analytics SDK also derives general location from
+      a masked IP address and, on Android, collects the advertising ID by default. If you have not disabled
+      these, add them here. Also confirm you do not set the Firebase user ID on analytics events.]</p>
+
+  <h4>Purchases</h4>
+  <p>Premium subscriptions are purchased through Apple's App Store or Google Play. Payment is handled entirely by
+      Apple or Google. We never see your payment details. We store only whether you have Premium.</p>
+
+  <h4>Permissions we do not request</h4>
+  <p>NameBaby does not request access to your location, contacts, camera, microphone or photos.</p>
+
+  <h3>How We Use Information</h3>
+  <ul>
+    <li>To provide the Service: showing names and previews, generating AI suggestions, keeping your lists,
+        signing you in, syncing across your devices, and sharing with your partner when you choose to.</li>
+    <li>To show ads to users who do not have Premium, and to unlock rewards when you watch a rewarded ad.</li>
+    <li>To understand how the app is used so that we can improve it.</li>
+    <li>To prevent abuse, such as limiting how many sign-in emails can be requested.</li>
+  </ul>
+  <p>We do not sell your account information, your lists or your chats.
+      <span class="confirm">[CONFIRM: I added this sentence, it was not in your description. Keep it only if it is true.]</span></p>
+
+  <h3>Advertising and Tracking Choices</h3>
+  <ul>
+    <li><strong>iOS tracking prompt.</strong> On iOS the app can show Apple's tracking permission prompt. Your
+        device's advertising identifier is only available to the app if you allow tracking. You can change your
+        choice at any time in your device's Settings under Privacy &amp; Security &gt; Tracking.</li>
+    <li><strong>Ad Privacy Choices.</strong> In the European Economic Area and the United Kingdom, you are shown
+        Google's consent form before ads are loaded. You can change your choice later using the
+        “Ad Privacy Choices” button in the app's Settings screen.</li>
+    <li><strong>Device ad settings.</strong> On Android you can reset or delete your advertising ID in your
+        device's Settings (under Google &gt; Ads, or Privacy &gt; Ads, depending on your device). You can also
+        manage ad personalization for your Google account at
+        <a href="https://adssettings.google.com" target="_blank">adssettings.google.com</a>.</li>
+    <li><strong>Premium.</strong> Premium subscribers are not shown ads.</li>
+  </ul>
+  <p>To learn how Google uses information from apps that use its services, see
+      <a href="https://policies.google.com/technologies/partner-sites" target="_blank">How Google uses information from sites or apps that use our services</a>.</p>
+
+  <h3>Service Providers</h3>
+  <p>We use third-party companies to provide parts of the Service. They receive the information described below
+      in order to perform these tasks.</p>
+  <ul>
+    <li><strong>Google (AdMob)</strong>: shows and measures ads.
+        <a href="https://policies.google.com/privacy" target="_blank">Privacy policy</a></li>
+    <li><strong>Google (Firebase Authentication, Cloud Firestore, Cloud Functions)</strong>: accounts, sign-in and
+        cloud sync. <a href="https://firebase.google.com/support/privacy" target="_blank">Privacy and security in Firebase</a></li>
+    <li><strong>Google (Google Analytics for Firebase)</strong>: app usage analytics.
+        <a href="https://policies.google.com/privacy" target="_blank">Privacy policy</a></li>
+    <li><strong>Resend</strong>: delivers sign-in emails, and receives your email address to do so.
+        <a href="https://resend.com/legal/privacy-policy" target="_blank">Privacy policy</a></li>
+    <li><strong>Apple and Google</strong>: process Premium subscription purchases through the App Store and
+        Google Play.</li>
+    <li><strong>Our AI service provider</strong>: receives chat text from our server to generate name suggestions.
+        <span class="confirm">[CONFIRM: name the provider and link its privacy policy.]</span></li>
+    <li><strong>Wikimedia Foundation (Wikipedia)</strong>: some name photos are loaded from Wikipedia's public API.
+        <a href="https://foundation.wikimedia.org/wiki/Policy:Privacy_policy" target="_blank">Privacy policy</a></li>
+  </ul>
+
+  <h3>How Long We Keep Information</h3>
+  <ul>
+    <li><strong>Information on your device</strong> stays there until you remove it or uninstall the app.
+        <span class="confirm">[CONFIRM: that uninstalling removes it, for example that it is not kept in a device backup.]</span></li>
+    <li><strong>Account and synced information</strong> is kept for as long as you have an account.
+        <span class="confirm">[CONFIRM: is this right, or do you remove inactive accounts after some period?]</span></li>
+    <li><strong>The hashed email address used to limit sign-in emails</strong> is kept only briefly.
+        <span class="confirm">[CONFIRM: state the actual period, for example “for up to one hour”.]</span></li>
+    <li><strong>Partner sharing information</strong> is kept while your accounts are linked.
+        <span class="confirm">[CONFIRM: what happens to the shared record when partners unlink or one deletes their account.]</span></li>
+    <li><strong>AI chat requests and server requests</strong>:
+        <span class="confirm">[CONFIRM: retention of chat text and server logs, see above.]</span></li>
+    <li><strong>Analytics information</strong> is kept by Google for the retention period we have set in
+        Google Analytics. <span class="confirm">[CONFIRM: your Google Analytics retention setting, 2 or 14 months.]</span></li>
+    <li><strong>Advertising information</strong> is collected and kept by Google under its own policies.</li>
+  </ul>
+
+  <h3 id="delete">Deleting Your Account and Data</h3>
+  <p>You can ask us to delete your account and the information associated with it at any time. See
+      <a href="/name_baby/delete-account/">how to delete your NameBaby account</a> for how to make a request,
+      what is deleted and how long it takes.</p>
 
   <h3>Log Data</h3>
-  <p> We want to inform you that whenever you use our Service, in a case of an
-      error in the app we collect data and information (through third party products) on your phone
-      called Log Data. This Log Data may include information such as your device Internet Protocol (“IP”) address,
-      device name, operating system version, the configuration of the app when utilizing our Service,
-      the time and date of your use of the Service, and other statistics.</p>
+  <p>The third-party software used in the app (see “Service Providers” above) collects diagnostic
+      information such as your device's Internet Protocol (“IP”) address, device model, operating system
+      version, and app performance information.</p>
+  <p class="confirm">[CONFIRM: the old policy said crash and error logs are collected through third-party
+      products. Your description of the app does not mention a crash reporting tool such as Firebase Crashlytics,
+      so I have narrowed this section to what you did describe. If the app uses one, tell me and I will add it.]</p>
 
-  <h3>Cookies</h3>
-  <p>Cookies are files with a small amount of data that are commonly used as anonymous unique identifiers. These
-      are sent to your browser from the websites that you visit and are stored on your device's internal memory.</p>
-  <p>This Service does not use these “cookies” explicitly. However, the app may use third party code and libraries
-      that use “cookies” to collect information and improve their services. You have the option to either
-      accept or refuse these cookies and know when a cookie is being sent to your device. If you choose to
-      refuse our cookies, you may not be able to use some portions of this Service.</p>
-
-  <h3>Service Providers</strong></h3>
-  <p> We may employ third-party companies and individuals due to the following reasons:</p>
-  <ul>
-    <li>To facilitate our Service;</li>
-    <li>To provide the Service on our behalf;</li>
-    <li>To perform Service-related services; or</li>
-    <li>To assist us in analyzing how our Service is used.</li>
-  </ul>
-  <p> We want to inform users of this Service that these third parties have access to your
-      Personal Information. The reason is to perform the tasks assigned to them on our behalf. However, they
-      are obligated not to disclose or use the information for any other purpose.</p>
+  <h3>Cookies and Identifiers</h3>
+  <p>Cookies are files with a small amount of data that are commonly used as anonymous unique identifiers. The app
+      does not use cookies explicitly. However, the third-party software in the app uses similar technologies,
+      such as your device's advertising identifier and an app instance ID, as described in this policy. See
+      “Advertising and Tracking Choices” above for how to control these.</p>
 
   <h3>Security</h3>
   <p> We value your trust in providing us your Personal Information, thus we are striving
@@ -90,11 +227,17 @@
       or services.</p>
 
   <h3>Children’s Privacy</h3>
-  <p>These Services do not address anyone under the age of 13. We do not knowingly collect
+  <p>NameBaby is intended for adults. These Services do not address anyone under the age of 13. We do not knowingly collect
       personally identifiable information from children under 13. In the case we discover that a child
       under 13 has provided us with personal information, we immediately delete this from
       our servers. If you are a parent or guardian and you are aware that your child has provided us with personal
       information, please contact us so that we will be able to do necessary actions.</p>
+
+  <h3>Your Rights</h3>
+  <p>Depending on where you live, you may have the right to access, correct or delete the personal information we
+      hold about you, or to object to how it is used. To make a request, contact us using the details below.</p>
+  <p class="confirm">[CONFIRM: this section is new and generic. Because the app shows a consent form in the EEA
+      and UK, ask your legal reviewer whether it needs GDPR and US state law detail.]</p>
 
   <h3>Changes to This Privacy Policy</h3>
   <p> We may update our Privacy Policy from time to time. Thus, you are advised to review
@@ -104,6 +247,8 @@
 
   <h3>Contact Us</h3>
   <p>If you have any questions or suggestions about our Privacy Policy, do not hesitate to contact
-      us.</p>
+      us at <a href="mailto:info@dangerapps.com">info@dangerapps.com</a>.</p>
+  <p class="confirm">[CONFIRM: the old policy showed no contact address. info@dangerapps.com is the address on
+      this site's Contact page.]</p>
   </body>
 </html>
